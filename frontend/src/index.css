@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.prose th {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+.prose td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.prose tr:nth-child(even) {
+  background: #f8fafc;
+}
